@@ -1,0 +1,123 @@
+@import url('https://fonts.cdnfonts.com/css/inter');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.full-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+   list-style: none; 
+}
+
+header{
+    display: flex;
+    max-width: 1440px;
+    padding: 22px 208px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    max-width: 1024px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+nav{
+    display: flex;
+    width: 1024px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+.left{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2xl, 20px);
+}
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-xs, 4px);
+    color: #535862;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+.right{
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-lg, 12px);
+}
+.logo-branding{
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px; /* 150% */
+}
+.log-in{
+    display: flex;
+    padding: 10px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-xs, 4px);
+    border-radius: var(--radius-md, 8px);
+    border: 1px solid #D5D7DA;
+    background-color: #FFF;
+    color: #414651;
+    font-family: 'Inter', sans-serif;
+    font-size: var(--Font-size-text-sm, 14px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: var(--Line-height-text-sm, 20px); /* 142.857% */
+}
+.sign-up{
+    border: none;
+    display: flex;
+    padding: 10px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-xs, 4px);
+    border-radius: var(--radius-md, 8px);
+    background-color: #7F56D9;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: var(--Font-size-text-sm, 14px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: var(--Line-height-text-sm, 20px); /* 142.857% */
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+    align-items: center;
+}
