@@ -491,12 +491,104 @@ main{
     line-height: 24px; /* 150% */
 }
 
+.section{
+    display: flex;
+    width: 1024px;
+    align-items: center;
+    border-radius: 24px;
+    background: #53389E;
+}
 
+.section-left{
+    display: flex;
+    padding: var(--spacing-7xl, 64px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: var(--spacing-5xl, 40px);
+    flex: 1 0 0;
+}
 
+.section-left-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
 
+.section-left-header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
 
+.star{
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs, 4px);
+}
 
+.section-left-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-xs, 4px);
+    align-self: stretch;
+}
 
+.section-h{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px; /* 122.222% */
+}
+.section-name-text{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 155.556% */
+}
+.section-category-name{
+    color: #E9D7FE;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-xl, 16px);
+}
+.ball-white{
+    width: 10px;
+    height: 10px;
+    border-radius: var(--radius-full, 9999px);
+    background-color: #FFF;
+}
+.ball-pink{
+    border-radius: var(--radius-full, 9999px);
+    background: #9E77ED;
+    width: 10px;
+    height: 10px;
+}
+.section-right{
+    width: 480px;
+    min-height: 448px;
+    flex-shrink: 0;
+    align-self: stretch;
+    border-radius: var(--radius-none, 0px);
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
 
 footer{
     display: flex;
